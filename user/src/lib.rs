@@ -35,3 +35,4 @@ pub extern "C" fn _start() -> ! {
 fn main() -> i32 {
     panic!("Cannot find main!");
 }
+pub fn get_time() -> isize { sys_get_time() }
